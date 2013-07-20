@@ -1,0 +1,4 @@
+Food Mod v1 Release - Saturday, July 20, 2013
+- 10 different food entities.
+- Required models, materials and sound files.
+- Configuration file added to autorun.
