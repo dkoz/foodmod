@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	"name"			"Food Mod"
+	"version"		"v1"
+	"author_name"		"KoZ"
+	"author_email"		""
+	"author_url"		"https://github.com/dkoz/foodmod"
+	"info"			"Consumable food for Garry's Mod 13"
+	"override"		"0"
+}
