@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/peppizza01/peppizzamain01"
+	"$bumpmap" "models/peppizza01/peppizzamain01_normal"
+}

@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/cheesepizza02/cheese02"
+	"$bumpmap" "models/cheesepizza02/cheese02_normal"
+}

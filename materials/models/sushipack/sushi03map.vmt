@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sushipack/sushi03map"
+	"$bumpmap" "models/sushipack/sushi03map_normal"
+}
