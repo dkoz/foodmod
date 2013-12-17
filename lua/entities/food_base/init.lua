@@ -32,7 +32,7 @@ function ENT:Use( activator )
 	
 	if foodmod.mode == 2 then
 		local energy = activator:getDarkRPVar("Energy")
-		activator:SetSelfDarkRPVar( "Energy", math.Clamp( (energy or 100) + foodmod.energygain, 0, 100 ) )
+		activator:setSelfDarkRPVar( "Energy", math.Clamp( (energy or 100) + foodmod.energygain, 0, 100 ) )
 	end
 	
 	activator:EmitSound( self.foodSound, 50, 100 )
