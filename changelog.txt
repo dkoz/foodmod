@@ -1,3 +1,8 @@
+Food Mod v2 Release - Monday, December 16, 2013
+- Recoded entire food mod to use one base.
+- Easier to add new food using simple hooks.
+- Removed old food that didn't fit with pack.
+
 More Food - Sunday, July 21, 2013
 - Garry's Mod default hamburgs and hotdogs added to food mod
 - Added mac n cheese, shake, and more sushi.

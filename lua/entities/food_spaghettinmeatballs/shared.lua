@@ -1,5 +1,5 @@
 ENT.Type = "anim"
-ENT.Base = "base_gmodentity"
+ENT.Base = "food_base"
 
 ENT.Category = "Food Mod"
 ENT.PrintName = "Spaghetti and Meatballs"
