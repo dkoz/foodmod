@@ -3,13 +3,13 @@ AddCSLuaFile("shared.lua")
 include( "shared.lua" )
 
 function ENT:SpawnFunction( ply, tr, class )
-    if ( !tr.Hit ) then return end
-    local pos = tr.HitPos + tr.HitNormal * 4
-    local ent = ents.Create( class )
-    ent:SetPos( pos )
-    ent:Spawn()
-    ent:Activate()
-    return ent
+	if ( !tr.Hit ) then return end
+	local pos = tr.HitPos + tr.HitNormal * 4
+	local ent = ents.Create( class )
+	ent:SetPos( pos )
+	ent:Spawn()
+	ent:Activate()
+	return ent
 end
 
 function ENT:Initialize()
@@ -35,6 +35,8 @@ function ENT:Use( activator )
 		activator:setSelfDarkRPVar( "Energy", math.Clamp( (energy or 100) + foodmod.energygain, 0, 100 ) )
 	end
 	
-	activator:EmitSound( self.foodSound, 50, 100 )
+	if foodmod.enablesound then
+		activator:EmitSound( self.foodSound, 50, 100 )
+	end
 	self:Remove()
 end
